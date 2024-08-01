@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create-tables-0
+      author: Mihail Korolitskiy
+      changes:
+        - sqlFile:
+            path: tables/create-table-purchase.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: Create-tables-1
+      author: Mihail Korolitskiy
+      changes:
+        - sqlFile:
+            path: tables/update-colomn-id.sql
+            relativeToChangelogFile: true

@@ -1,0 +1,31 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container Button {
+    margin: 15px;
+}
+
+.text-container {
+    display: grid;
+    gap: 10px;
+    margin: 15px;
+    width: 400px;
+}
+
+Button {
+    margin: 5px;
+}
+
+.button-green {
+    background: #0f8d53 !important;
+}
+
+.button-yellow {
+    background: #ff9218 !important;
+}
+
+.button-red {
+    background: #cc3d4f !important;
+}
